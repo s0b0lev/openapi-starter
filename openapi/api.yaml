@@ -1,0 +1,14 @@
+openapi: 3.0.2
+
+servers:
+  - url: 'https://api.maddevs.co/v1'
+
+info:
+  $ref: components/info.yaml
+
+paths:
+  /projects:
+    $ref: endpoints/projects.yaml
+
+  /users:
+    $ref: endpoints/users.yaml

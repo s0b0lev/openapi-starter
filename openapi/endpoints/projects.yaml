@@ -1,0 +1,31 @@
+get:
+  operationId: listProjects
+  summary: List projects
+  tags:
+    - Projects List
+  description: List all Mad Devs projects
+  parameters:
+    - name: offset
+      in: query
+      description: Pagination offset. The number of records to skip.
+      schema:
+        type: integer
+        default: 0
+  responses:
+    200:
+      description: Success
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              total:
+                type: integer
+                description: Total number of matching projects.
+              projects:
+                type: array
+                description: Up to 20 matching user object after the
+                items:
+                  $ref: ../schemas/projects.yaml
+                
+

@@ -1,0 +1,6 @@
+version: v1.4
+title: Mad Devs API
+x-logo:
+  url: https://maddevs.io/_nuxt/img/ccc8e59.svg
+description: |
+  Remote Tech Teams For Your Business

@@ -1,0 +1,17 @@
+type: object
+properties:
+  id:
+    type: string
+    description: User ID.
+  name:
+    type: string
+    description: Project name
+  link:
+    type: string
+    description: Porject link
+  logo:
+    type: string
+    description: Project logo
+  description:
+    type: string
+    description: Project description

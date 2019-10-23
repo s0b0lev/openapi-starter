@@ -1,0 +1,15 @@
+{
+  "name": "openapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "openapi-generate": "./node_modules/.bin/swagger-cli bundle -o swagger.json -r api.yaml ",
+    "openapi-validate": "./node_modules/.bin/swagger-cli validate api.yaml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "swagger-cli": "^2.3.2"
+  }
+}
